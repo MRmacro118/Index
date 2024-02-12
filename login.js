@@ -1,7 +1,7 @@
 // Function to prompt the user for a password
 function showPasswordPrompt() {
   var password = prompt("Please enter the password:");
-  var validPasswords = ["user", "admin"]; // List of valid passwords
+  var validPasswords = ["user", "admin", "118"]; // List of valid passwords
 
   // Check if the entered password is valid
   if (validPasswords.includes(password)) {
