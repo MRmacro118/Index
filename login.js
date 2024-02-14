@@ -1,7 +1,7 @@
 // Function to prompt the user for a password
 function showPasswordPrompt() {
   var password = prompt("Please enter the password:");
-  var validPasswords = ["user", "admin", "118"]; // List of valid passwords
+  var validPasswords = ["user", "admin", "shahil9111"]; // List of valid passwords
 
   // Check if the entered password is valid
   if (validPasswords.includes(password)) {
@@ -10,6 +10,8 @@ function showPasswordPrompt() {
       window.location.href = "user/index.html"; // Redirect to content1.html for password "86578657"
     } else if (password === "admin") {
       window.location.href = "admin/index.html"; // Redirect to content2.html for password "admin"
+    } else if (password === "shahil9111") {
+      window.location.href = "extra/index.html" ;
     }
   } else {
     // Otherwise, display an error message
